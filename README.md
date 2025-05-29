@@ -10,7 +10,7 @@ This project implements **Context Encoders** for semantic image inpainting, base
 
   * **Masked L2 loss** for pixel-level reconstruction
   * **Adversarial loss** using a custom discriminator (GAN)
-* **Training**: Conducted on Apple M2 GPU cores with batches of size 64 for 50 epochs
+* **Training**: Conducted on Apple M2 8 GPU cores with batches of size 64 for 50 epochs
 
 ## 📂 Directory Structure
 
@@ -25,7 +25,7 @@ This project implements **Context Encoders** for semantic image inpainting, base
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/context-encoder-inpainting.git
+git clone https://github.com/Ineshtandy/context-encoder-inpainting.git
 cd context-encoder-inpainting
 ```
 
