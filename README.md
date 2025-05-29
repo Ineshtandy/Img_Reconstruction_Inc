@@ -35,9 +35,11 @@ Sample output after 50 epochs with adversarial training (λ\_adv = 0.05):
 
 ![L2_GAN_Result](https://github.com/user-attachments/assets/c7edd660-2f4a-4391-af7e-6dead7bfd3b6)
 
+While these results showed some improvement in structure and color placement, the outputs still lack texture and appear blurry. This is largely due to computational limitations, which limited time under training, complexity of models and loss functions that could be used.
+
 ## 🧪 Future Work
 
-* Longer Training time with reduced λ\_adv
+* Longer Training time with increased λ\_adv
 * Integrate perceptual (VGG-based) loss
 * Explore larger datasets (e.g., COCO or Places2)
 
